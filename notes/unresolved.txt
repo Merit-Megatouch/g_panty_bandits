@@ -3,11 +3,6 @@
 # (usually in src/host/loader_services.cpp) before the game will start.
 # symbol | needed by
 GetLocation(unsigned char, char (&) [255]) | g_panty_bandits.so
-IsScreenTouched() | g_panty_bandits.so
 t_i_l() | g_panty_bandits.so
 SystemClass::FlushKB() | g_panty_bandits.so
 USBIO::FoundUSB() | g_panty_bandits.so
-GameClass::GameClass() | g_panty_bandits.so
-GameClass::~GameClass() | g_panty_bandits.so
-typeinfo for GameClass | g_panty_bandits.so
-voice_ramp_volume | g_panty_bandits.so
